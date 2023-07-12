@@ -5,11 +5,15 @@ theme: gaia
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url(https://marp.app/assets/hero-background.svg)
-title: Como-Organizar-Branches-Commits-e-Pull-Requests
-author: Dicas de guscsales no TabNews (https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests)
 
 ---
+---
+
+![](https://blog.davey.com/media/3gmbwcew/spring-branch-banner-stock.jpg?width=1920&height=420&rnd=133052226663000000&format=webp&quality=45)
+
+---
+
+<!-- Notas do autor: Dicas de guscsales no TabNews (https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests) -->
 
 # Uma Boa Maneira de Organizar Suas Branches, Commits e Pull Requests
 Eu já trabalhei em diversos projetos com Git, seja hospedando em GitHub, Bitbucket, GitLab ou qualquer outro provedor. Durante essa estrada de programação percebi que muita das vezes as organizações de projetos, commits, nomes de branches e pull requests são negligenciadas.
@@ -124,6 +128,8 @@ Explicando:
 
 - Item 6: Outras pull requests que são dependentes, por exemplo: alguma pull request com uma API do backend que é necessária estar entregue antes de subir uma tela no frontend.
 Lembrando que para adicionar padrões de template na pull request você pode utilizar essa forma: criar uma pasta .github na raiz do seu projeto e dentro um arquivo chamado pull_request_template.md com o template acima. Automaticamente o GitHub vai entender isso e abrir as pull requests com esse template.
+
+---
 
 ## Dicas Bônus - Assignees, Labels e Multiplos Commits
 Em uma pull request procure preencher outros dois campos (exemplos usando o GitHub):
