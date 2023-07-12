@@ -1,16 +1,16 @@
 ---
+
+marp: true
 theme: gaia
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
----
-
+backgroundImage: url(https://marp.app/assets/hero-background.svg)
 title: Como-Organizar-Branches-Commits-e-Pull-Requests
-
 author: Dicas de guscsales no TabNews (https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests)
 
 ---
+
 # Uma Boa Maneira de Organizar Suas Branches, Commits e Pull Requests
 Eu já trabalhei em diversos projetos com Git, seja hospedando em GitHub, Bitbucket, GitLab ou qualquer outro provedor. Durante essa estrada de programação percebi que muita das vezes as organizações de projetos, commits, nomes de branches e pull requests são negligenciadas.
 
